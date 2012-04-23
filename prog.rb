@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
 
-puts Integer(ARGV[0])*3
+puts Integer(ARGV[0])+10
