@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
 
-puts Integer((Integer(ARGV[0])+2.5)*2)
+puts Integer((Integer(ARGV[0])+2)*2)+1
