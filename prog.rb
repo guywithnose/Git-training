@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
 
-puts Integer((Integer(ARGV[0])-2)*7)-19
+puts Integer((Integer(ARGV[0])-3)*7)-19
