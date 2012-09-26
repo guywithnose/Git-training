@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
 
-puts Integer((Integer(ARGV[0])-3)**4)-1
+puts 8.downto(Integer(ARGV[0])-1).inject(:*)/448
