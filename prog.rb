@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
 
-puts Integer(ARGV[0])%(-4) * (-5)
+puts Integer((Integer(ARGV[0])+2)*3)-6
