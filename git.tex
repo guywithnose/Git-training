@@ -1,0 +1,88 @@
+\documentclass[14pt]{beamer}
+\usepackage[latin1]{inputenc}
+\usepackage{graphics}
+\usetheme{Warsaw}
+\setbeamertemplate{navigation symbols}{}
+\title{The Basics of Git}
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}{What is Git?}
+	According to the documentation:\newline
+	"git" can mean anything, depending on your mood.
+	\begin{enumerate}
+		\small
+		\item random three-letter combination that is pronounceable, and not
+		   actually used by any common UNIX command.  The fact that it is a
+		   mispronunciation of "get" may or may not be relevant.
+		\item stupid. contemptible and despicable. simple. Take your pick from the
+		   dictionary of slang.
+		\item "global information tracker": you're in a good mood, and it actually
+		   works for you. Angels sing, and a light suddenly fills the room.
+		\item "godd*mn idiotic truckload of sh*t": when it breaks
+	\end{enumerate}
+\end{frame}
+
+\begin{frame}{What is Git?}
+	Git is a fast, scalable, distributed revision control system with an
+	unusually rich command set that provides both high-level operations
+	and full access to internals.
+\end{frame}
+
+\begin{frame}{What is Git?}
+	\begin{enumerate}
+		\small
+		\item Git is flexible for many different workflows.
+		\item Git is non-linear.
+		\item Git is offline and therefore much faster.
+		\item Git is distributed.  This means it allows for many
+			developers to work independenty, yet collaboratively.
+		\item Git allows a deveoper to seemlessly switch between features(branches).
+		\item Git allows for disposable experimentation.
+	\end{enumerate}
+\end{frame}
+
+
+\begin{frame}{Getting started}
+	Installing git
+		mSysGit
+	Github
+		Fork
+		Clone
+		Commit
+		Push
+		Merge/Pull Request
+\end{frame}
+
+
+\begin{frame}{Basic commands}
+	add
+	reset
+	status
+	commit
+	log
+	diff
+	show
+\end{frame}
+
+\begin{frame}{Staging area}
+	image
+           add            commit
+Working Dir -> Staging Area -> HEAD(Commited)
+            <-              <-
+          reset        reset --soft
+
+Status lets you know what files are in what state.
+\end{frame}
+
+\begin{frame}{What is a commit}
+	image from pro git
+\end{frame}
+
+\begin{frame}{Logging the history}
+	Unlike SVN git is not linear.  A commit can have two parents.
+\end{frame}
+
+\end{document}
