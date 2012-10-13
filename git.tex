@@ -13,7 +13,7 @@
 \begin{frame}{What is Git?}
 	According to the documentation:\newline
 	"git" can mean anything, depending on your mood.
-	\begin{enumerate}
+	\begin{itemize}
 		\small
 		\item random three-letter combination that is pronounceable, and not
 		   actually used by any common UNIX command.  The fact that it is a
@@ -23,7 +23,7 @@
 		\item "global information tracker": you're in a good mood, and it actually
 		   works for you. Angels sing, and a light suddenly fills the room.
 		\item "godd*mn idiotic truckload of sh*t": when it breaks
-	\end{enumerate}
+	\end{itemize}
 \end{frame}
 
 \begin{frame}{What is Git?}
@@ -33,8 +33,7 @@
 \end{frame}
 
 \begin{frame}{What is Git?}
-	\begin{enumerate}
-		\small
+	\begin{itemize}
 		\item Git is flexible for many different workflows.
 		\item Git is non-linear.
 		\item Git is offline and therefore much faster.
@@ -42,7 +41,7 @@
 			developers to work independenty, yet collaboratively.
 		\item Git allows a deveoper to seemlessly switch between features(branches).
 		\item Git allows for disposable experimentation.
-	\end{enumerate}
+	\end{itemize}
 \end{frame}
 
 
@@ -66,27 +65,36 @@
 
 
 \begin{frame}{Basic commands}
-	add
-	reset
-	status
-	commit
-	log
-	diff
-	show
+	\begin{itemize}
+		\item add
+		\item reset
+		\item status
+		\item commit
+		\item log
+		\item diff
+		\item show
+	\end{itemize}
 \end{frame}
 
 \begin{frame}{Staging area}
-	image
-           add            commit
-Working Dir -> Staging Area -> HEAD(Commited)
-            <-              <-
-          reset        reset --soft
-
-Status lets you know what files are in what state.
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width=\textwidth]{commit-add-reset.jpg}
+	\end{figure}
 \end{frame}
 
 \begin{frame}{What is a commit}
-	image from pro git
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width=\textwidth]{commitBlobs.png}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{What is a commit}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width=\textwidth]{commitSnapshots.png}
+	\end{figure}
 \end{frame}
 
 \begin{frame}{Logging the history}
