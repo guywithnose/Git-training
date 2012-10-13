@@ -36,10 +36,10 @@
 	\begin{itemize}
 		\item Git is flexible for many different workflows.
 		\item Git is non-linear.
-		\item Git is offline and therefore much faster.
+		\item Git stores all data locally and is therefore much faster.
 		\item Git is distributed.  This means it allows for many
 			developers to work independenty, yet collaboratively.
-		\item Git allows a deveoper to seemlessly switch between features(branches).
+		\item Git allows a deveoper to seamlessly switch between features(branches).
 		\item Git allows for disposable experimentation.
 	\end{itemize}
 \end{frame}
@@ -84,6 +84,7 @@
 \end{frame}
 
 \begin{frame}{What is a commit}
+	You can see this with cat-file
 	\begin{figure}[htb]
 		\centering
 		\includegraphics[width=\textwidth]{commitBlobs.png}
@@ -97,8 +98,12 @@
 	\end{figure}
 \end{frame}
 
-\begin{frame}{Logging the history}
-	Unlike SVN git is not linear.  A commit can have two parents.
+\begin{frame}{Git is non linear}
+	Unlike SVN git is not linear.  A commit can have two parents.  It can also have many children... Kinda like people.
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[width=\textwidth]{nonLinearCommits.jpg}
+	\end{figure}
 \end{frame}
 
 \end{document}
