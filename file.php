@@ -3,7 +3,7 @@
 echo <<<'NOWDOC'
 
 We the People of the United States,
-in Order to from a more perfect Union,
+in Order to form a more perfect Union,
 establish Justice, insure domestic Tranquility,
 provide for the common defence,
 promote the genral Welfare,
