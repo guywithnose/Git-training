@@ -38,7 +38,7 @@ shall have a new birth of freedom --
 and that government of the people,
 by the people,
 for the people,
-I think zombies want to eat people,
+
 shall not perish from the earth.
 
 NOWDOC;
